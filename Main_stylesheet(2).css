@@ -1,0 +1,43 @@
+#other_navbar_item {
+  color: white;
+}
+#other_navbar_item:hover {
+  background-color: #e0ebf1;
+  color: black;
+  transition: ease-in 0.3s;
+  border-radius: 30px;
+}
+
+/*  Header and body tags */
+
+/* Pictures Content*/
+#animated_column_1 :hover #animated_image_1 {
+  animation: test_animations 2s infinite;
+}
+@keyframes test_animations {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+/* Header target */
+@keyframes Header_why {
+  0% {
+    border-radius: 150%;
+    border: 2px solid red;
+  }
+  50% {
+    border-radius: 10%;
+    border: 2px solid white;
+  }
+  100% {
+    border-radius: 150%;
+    border: 2px solid red;
+  }
+}
